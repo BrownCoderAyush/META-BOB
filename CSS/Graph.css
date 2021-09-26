@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  border-bottom: 3px solid rgb(204, 104, 104);
+  height: 71px;
+}
+#navbar::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(227 215 73);
+  background-color: rgb(42, 49, 48);
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: -1;
+}
+/* navigation bar logo and image */
+.logo {
+  margin: 6px 6px;
+}
+
+.logo img {
+  height: 63px;
+  width: 72px;
+  filter: invert(100%);
+  border-radius: 45px;
+}
+
+/* navigation bar list styling */
+#navbar ul {
+  display: flex;
+  margin: 6px 27px;
+}
+
+#navbar ul li {
+  list-style: none;
+  margin: 20px 25px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 1px 0px;
+  color: rgb(255, 5, 5);
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+.container{
+    height: 500px;
+    background-color: rgb(33, 37,41);
+    color: whitesmoke;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.lContent{
+  height: 400px;
+  width: 400px;
+}
+.Image{
+  height: 400px;
+  width: 401px;
+}
+
+.axis{
+  background-color: rgb(33, 37,41);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 4px 0 0 0; */
+}
+ .x-axis,.y-axis{
+  padding: 2px;
+  background-color: whitesmoke;
+}
+
+.myChart{
+    margin: 20px auto;
+}
+.collapse{
+    /* background-color: royalblue; */
+    /* height: 200vh; */
+    width: 60%;
+    margin: auto;
+    padding : 4px;
+    border: 2px solid rgb(58, 6, 247);
+    border-radius: 5px;
+    
+}
+.collapsible {
+    background-color: rgb(33, 37,41);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+  
+/* Style the button that is used to open and close the collapsible content */
+/* .collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  } */
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* .active, .collapsible:hover {
+    background-color: #ccc;
+  } */
+  
+  /* Style the collapsible content. Note: hidden by default */
+  /* .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  } */
+  
+
